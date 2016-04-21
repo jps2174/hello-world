@@ -8,8 +8,9 @@
 		
 </head>
 <body>
-
+	
 	<?php 
+	echo time();
 	echo 'Hello World! You are visiting ';
 	echo $_SERVER['SERVER_NAME']; 
 	?>
